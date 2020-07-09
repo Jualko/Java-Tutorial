@@ -21,5 +21,16 @@ public class App {
 			System.out.println("Try again next year");
 		}
 
+		// do ... while
+		// the variable used as the condition must be declared outside the loop
+		int number = 0;
+
+		do {
+			System.out.println("Guess the number");
+			number = input.nextInt();
+		} while (number != 5);
+
+		System.out.println("Correct");
+
 	}
 }
