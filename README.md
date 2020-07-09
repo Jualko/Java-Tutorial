@@ -9,4 +9,5 @@ Shortcut | Description Header
 ------------ | -------------
 Ctrl + Shift + F | format source code
 Ctrl + Space | code completion
+Ctrl + Shift + O | organize import
 Alt + Shift + S, R | generate getters and setters

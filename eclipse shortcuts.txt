@@ -1,8 +1,0 @@
-Ctrl + Shift + F
-	format source code
-
-Ctrl + Space
-	auto-completion
-
-Alt + Shift + S, R
-	generate getters and setters
