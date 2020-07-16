@@ -32,5 +32,24 @@ public class App {
 
 		System.out.println("Correct");
 
+		// switch
+		System.out.println("Please enter your command:");
+		String sText = input.nextLine();
+		// nextLine() needs to be called twice because nextInt() was used before
+		// nextInt() doesn't read the newline character the previous input created
+		// the first nextLine() returns that newline character
+		sText = input.nextLine();
+		switch (sText) {
+		case "start":
+			System.out.println("Programm started!");
+			break;
+		case "stop":
+			System.out.println("Programm stopped!");
+			break;
+		default:
+			System.out.println("Unknown command");
+			break;
+		}
+
 	}
 }
