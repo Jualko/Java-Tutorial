@@ -11,3 +11,4 @@ Ctrl + Shift + F | format source code
 Ctrl + Space | code completion
 Ctrl + Shift + O | organize import
 Alt + Shift + S, R | generate getters and setters
+Ctrl + Alt + Up / Down | copies current line or selected lines to above / below
