@@ -13,6 +13,9 @@ public class App {
 		azubi2.lehrjahr = 1;
 
 		System.out.println(azubi1.name + ", " + azubi2.name);
+
+		azubi1.code("int i = 0;");
+		azubi2.code("int pasta = 42;");
 	}
 }
 
@@ -24,5 +27,8 @@ class Azubi {
 	int lehrjahr;
 
 	// 2. Subroutines (methods)
-
+	void code(String sCode) {
+		System.out.println(sCode);
+		System.out.println("This code was presented to you by " + name);
+	}
 }
